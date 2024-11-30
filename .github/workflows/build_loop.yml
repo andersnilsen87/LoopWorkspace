@@ -265,6 +265,9 @@ jobs:
           # Remove the "#" sign from the beginning of the line below to activate:
           #curl https://github.com/loopnlearn/Loop/commit/d206432b024279ef710df462b20bd464cd9682d4.patch | git apply --directory=Loop -v --whitespace=fix
 
+          # Loop : andersnilsen87-patch-2: Endre karbotider
+          curl https://github.com/andersnilsen87/Loop/commit/ca84ac9952b1a9657e1fd9b49a055603b39fba9a.patch | git apply -v --directory=Loop
+
           # Submodule LoopKit patches:
           # General template for customizing submodule LoopKit 
           # Copy url from a GitHub commit or pull request and insert below, and remove the "#" sign from the beginning of the line to activate:
