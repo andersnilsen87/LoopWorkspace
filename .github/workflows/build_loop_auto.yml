@@ -221,9 +221,10 @@ jobs:
           # Submodule Loop patches:
           # Template for customizing submodule Loop (changes Loop app name to "CustomLoop")
           # Remove the "#" sign from the beginning of the line below to activate:
+          # Loop: andersnilsen87-patch-1: Endring av karbotider auto
+          curl https://github.com/andersnilsen87/Loop/commit/87e5c9c3c78f317de435fab7fe61305f75b34c27.patch | git apply -v --directory=Loop
           
-          curl https://github.com/andersnilsen87/Loop/commit/4d9c3f31f32ee2b43e144d1dee668ad382e3cce2.patch | git apply -v --directory=Loop
-          
+                    
           # Submodule LoopKit patches:
           # General template for customizing submodule LoopKit 
           # Copy url from a GitHub commit or pull request and insert below, and remove the "#" sign from the beginning of the line to activate:
